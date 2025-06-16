@@ -55,10 +55,3 @@ const hola = true
 
 //si la variable es tree se realiza lo de alante de los puntos sino lo de atras
 hola ? console.log("hola") : console.log("yes")
-
-
-
-
-
-
-
