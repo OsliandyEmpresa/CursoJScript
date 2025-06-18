@@ -21,6 +21,7 @@ else{
 
 //Condicional switch
 switch(edad){
+    
     case 1:
         console.log(`Tienes una edad menor 1`)
         break
@@ -35,10 +36,14 @@ switch(edad){
 
     case 4:
         console.log(`Tienes una edad menor 4`)
-        break     
-}
+        break
+    
+    default:
+        console.log(`Default`)
+
+}       
 
 //Condicional Ternario
 
-let verificacion = edad == 10 ? `Tienes 10 anos` : `No tiebnes 10 anos`
+let verificacion = edad == 10 ? `Tienes 10 anos` : `No Tienes 10 anos`
 console.log(verificacion)
