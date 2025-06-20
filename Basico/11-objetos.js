@@ -9,7 +9,7 @@ let persona = {
 
     caminar : function () {
         console.log('Dotas')
-    }
+    } 
 }
 
 // LLamada por punto
